@@ -1,0 +1,299 @@
+01-Apr-2018 21:34:00.955 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.29
+01-Apr-2018 21:34:00.970 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2018 13:11:12 UTC
+01-Apr-2018 21:34:01.002 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.29.0
+01-Apr-2018 21:34:01.002 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+01-Apr-2018 21:34:01.002 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+01-Apr-2018 21:34:01.002 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+01-Apr-2018 21:34:01.002 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_66\jre
+01-Apr-2018 21:34:01.002 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_66-b18
+01-Apr-2018 21:34:01.002 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+01-Apr-2018 21:34:01.002 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Clusters\apache-tomcat1-8.5.29
+01-Apr-2018 21:34:01.002 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Clusters\apache-tomcat1-8.5.29
+01-Apr-2018 21:34:01.002 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Clusters\apache-tomcat1-8.5.29\conf\logging.properties
+01-Apr-2018 21:34:01.002 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Apr-2018 21:34:01.017 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+01-Apr-2018 21:34:01.017 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Apr-2018 21:34:01.017 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+01-Apr-2018 21:34:01.033 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Clusters\apache-tomcat1-8.5.29
+01-Apr-2018 21:34:01.033 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Clusters\apache-tomcat1-8.5.29
+01-Apr-2018 21:34:01.033 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Clusters\apache-tomcat1-8.5.29\temp
+01-Apr-2018 21:34:01.033 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+01-Apr-2018 21:34:01.033 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+01-Apr-2018 21:34:01.033 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+01-Apr-2018 21:34:02.205 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+01-Apr-2018 21:34:02.549 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8002"]
+01-Apr-2018 21:34:02.736 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-Apr-2018 21:34:02.752 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-50001"]
+01-Apr-2018 21:34:02.768 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-Apr-2018 21:34:02.768 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3219 ms
+01-Apr-2018 21:34:02.893 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+01-Apr-2018 21:34:02.893 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.29
+01-Apr-2018 21:34:02.939 信息 [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+01-Apr-2018 21:34:03.018 信息 [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/192.168.153.1:4000]
+01-Apr-2018 21:34:03.377 信息 [main] org.apache.catalina.tribes.util.UUIDGenerator.<clinit> Creation of SecureRandom instance for UUID generation using [SHA1PRNG] took [344] milliseconds.
+01-Apr-2018 21:34:03.393 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+01-Apr-2018 21:34:03.408 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+01-Apr-2018 21:34:04.409 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+01-Apr-2018 21:34:04.409 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+01-Apr-2018 21:34:05.409 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+01-Apr-2018 21:34:05.455 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\docs]
+01-Apr-2018 21:34:06.549 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\docs] has finished in [1,094] ms
+01-Apr-2018 21:34:06.549 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\examples]
+01-Apr-2018 21:34:07.721 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\examples] has finished in [1,172] ms
+01-Apr-2018 21:34:07.737 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\host-manager]
+01-Apr-2018 21:34:07.815 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\host-manager] has finished in [78] ms
+01-Apr-2018 21:34:07.815 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\manager]
+01-Apr-2018 21:34:07.893 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\manager] has finished in [78] ms
+01-Apr-2018 21:34:07.893 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\ROOT]
+01-Apr-2018 21:34:07.956 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\ROOT] has finished in [63] ms
+01-Apr-2018 21:34:07.987 信息 [main] org.apache.catalina.ha.session.JvmRouteBinderValve.startInternal JvmRouteBinderValve started
+01-Apr-2018 21:34:08.002 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8002"]
+01-Apr-2018 21:34:08.065 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-50001"]
+01-Apr-2018 21:34:08.081 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 5312 ms
+01-Apr-2018 21:34:49.849 信息 [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+01-Apr-2018 21:34:50.346 信息 [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 153, 1}:4001,{192, 168, 153, 1},4001, alive=1028, securePort=-1, UDP Port=-1, id={-40 120 47 82 119 81 73 101 -117 -102 123 -33 90 88 -80 -2 }, payload={}, command={}, domain={}, ]]
+01-Apr-2018 21:48:01.486 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.29
+01-Apr-2018 21:48:01.502 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2018 13:11:12 UTC
+01-Apr-2018 21:48:01.502 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.29.0
+01-Apr-2018 21:48:01.502 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+01-Apr-2018 21:48:01.502 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+01-Apr-2018 21:48:01.502 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+01-Apr-2018 21:48:01.502 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_66\jre
+01-Apr-2018 21:48:01.502 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_66-b18
+01-Apr-2018 21:48:01.502 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+01-Apr-2018 21:48:01.518 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Clusters\apache-tomcat1-8.5.29
+01-Apr-2018 21:48:01.518 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Clusters\apache-tomcat1-8.5.29
+01-Apr-2018 21:48:01.518 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Clusters\apache-tomcat1-8.5.29\conf\logging.properties
+01-Apr-2018 21:48:01.518 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Apr-2018 21:48:01.518 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+01-Apr-2018 21:48:01.518 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Apr-2018 21:48:01.518 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+01-Apr-2018 21:48:01.533 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Clusters\apache-tomcat1-8.5.29
+01-Apr-2018 21:48:01.533 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Clusters\apache-tomcat1-8.5.29
+01-Apr-2018 21:48:01.533 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Clusters\apache-tomcat1-8.5.29\temp
+01-Apr-2018 21:48:01.549 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+01-Apr-2018 21:48:01.549 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+01-Apr-2018 21:48:01.549 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+01-Apr-2018 21:48:02.710 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+01-Apr-2018 21:48:03.069 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8002"]
+01-Apr-2018 21:48:03.257 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-Apr-2018 21:48:03.288 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-50001"]
+01-Apr-2018 21:48:03.288 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-Apr-2018 21:48:03.288 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3311 ms
+01-Apr-2018 21:48:03.397 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+01-Apr-2018 21:48:03.397 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.29
+01-Apr-2018 21:48:03.429 信息 [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+01-Apr-2018 21:48:03.507 信息 [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/192.168.153.1:4000]
+01-Apr-2018 21:48:03.866 信息 [main] org.apache.catalina.tribes.util.UUIDGenerator.<clinit> Creation of SecureRandom instance for UUID generation using [SHA1PRNG] took [344] milliseconds.
+01-Apr-2018 21:48:03.882 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+01-Apr-2018 21:48:03.897 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+01-Apr-2018 21:48:04.898 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+01-Apr-2018 21:48:04.898 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+01-Apr-2018 21:48:05.898 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+01-Apr-2018 21:48:05.944 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\docs]
+01-Apr-2018 21:48:06.804 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\docs] has finished in [860] ms
+01-Apr-2018 21:48:06.804 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\examples]
+01-Apr-2018 21:48:07.929 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\examples] has finished in [1,125] ms
+01-Apr-2018 21:48:07.929 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\host-manager]
+01-Apr-2018 21:48:08.038 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\host-manager] has finished in [109] ms
+01-Apr-2018 21:48:08.054 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\manager]
+01-Apr-2018 21:48:08.132 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\manager] has finished in [78] ms
+01-Apr-2018 21:48:08.132 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\ROOT]
+01-Apr-2018 21:48:08.210 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\ROOT] has finished in [78] ms
+01-Apr-2018 21:48:08.257 信息 [main] org.apache.catalina.ha.session.JvmRouteBinderValve.startInternal JvmRouteBinderValve started
+01-Apr-2018 21:48:08.273 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8002"]
+01-Apr-2018 21:48:08.320 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-50001"]
+01-Apr-2018 21:48:08.335 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 5046 ms
+01-Apr-2018 21:49:10.367 信息 [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+01-Apr-2018 21:49:10.961 信息 [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 153, 1}:4001,{192, 168, 153, 1},4001, alive=1016, securePort=-1, UDP Port=-1, id={-102 -27 123 -87 -82 -124 67 64 -124 -27 59 -128 41 -34 22 12 }, payload={}, command={}, domain={}, ]]
+01-Apr-2018 21:53:08.794 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+01-Apr-2018 21:53:08.794 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+01-Apr-2018 21:53:08.965 警告 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.ha.tcp.SimpleTcpCluster.registerManager Manager [org.apache.catalina.session.StandardManager[]] does not implement ClusterManager, addition to cluster has been aborted.
+01-Apr-2018 21:53:09.012 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+01-Apr-2018 21:56:59.373 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+01-Apr-2018 21:56:59.373 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+01-Apr-2018 21:56:59.404 警告 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.ha.tcp.SimpleTcpCluster.registerManager Manager [org.apache.catalina.session.StandardManager[]] does not implement ClusterManager, addition to cluster has been aborted.
+01-Apr-2018 21:56:59.420 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+01-Apr-2018 22:28:05.543 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.29
+01-Apr-2018 22:28:05.558 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2018 13:11:12 UTC
+01-Apr-2018 22:28:05.558 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.29.0
+01-Apr-2018 22:28:05.558 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+01-Apr-2018 22:28:05.558 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+01-Apr-2018 22:28:05.558 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+01-Apr-2018 22:28:05.574 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_66\jre
+01-Apr-2018 22:28:05.574 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_66-b18
+01-Apr-2018 22:28:05.574 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+01-Apr-2018 22:28:05.574 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Clusters\apache-tomcat1-8.5.29
+01-Apr-2018 22:28:05.574 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Clusters\apache-tomcat1-8.5.29
+01-Apr-2018 22:28:05.574 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Clusters\apache-tomcat1-8.5.29\conf\logging.properties
+01-Apr-2018 22:28:05.574 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Apr-2018 22:28:05.574 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+01-Apr-2018 22:28:05.574 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Apr-2018 22:28:05.574 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+01-Apr-2018 22:28:05.589 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Clusters\apache-tomcat1-8.5.29
+01-Apr-2018 22:28:05.605 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Clusters\apache-tomcat1-8.5.29
+01-Apr-2018 22:28:05.605 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Clusters\apache-tomcat1-8.5.29\temp
+01-Apr-2018 22:28:05.605 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+01-Apr-2018 22:28:05.605 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+01-Apr-2018 22:28:05.605 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+01-Apr-2018 22:28:06.793 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+01-Apr-2018 22:28:07.199 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8002"]
+01-Apr-2018 22:28:07.449 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-Apr-2018 22:28:07.480 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-50001"]
+01-Apr-2018 22:28:07.480 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-Apr-2018 22:28:07.480 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3540 ms
+01-Apr-2018 22:28:07.621 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+01-Apr-2018 22:28:07.621 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.29
+01-Apr-2018 22:28:07.652 信息 [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+01-Apr-2018 22:28:07.745 信息 [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/192.168.153.1:4000]
+01-Apr-2018 22:28:08.167 信息 [main] org.apache.catalina.tribes.util.UUIDGenerator.<clinit> Creation of SecureRandom instance for UUID generation using [SHA1PRNG] took [422] milliseconds.
+01-Apr-2018 22:28:08.198 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+01-Apr-2018 22:28:08.214 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+01-Apr-2018 22:28:09.214 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+01-Apr-2018 22:28:09.214 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+01-Apr-2018 22:28:10.214 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+01-Apr-2018 22:28:10.261 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\docs]
+01-Apr-2018 22:28:11.574 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\docs] has finished in [1,313] ms
+01-Apr-2018 22:28:11.589 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\examples]
+01-Apr-2018 22:28:13.112 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\examples] has finished in [1,523] ms
+01-Apr-2018 22:28:13.112 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\host-manager]
+01-Apr-2018 22:28:13.190 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\host-manager] has finished in [78] ms
+01-Apr-2018 22:28:13.190 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\manager]
+01-Apr-2018 22:28:13.268 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\manager] has finished in [78] ms
+01-Apr-2018 22:28:13.268 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\ROOT]
+01-Apr-2018 22:28:13.346 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#] to cluster element [Engine] with name [Catalina]
+01-Apr-2018 22:28:13.362 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#]
+01-Apr-2018 22:28:13.362 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#]: skipping state transfer. No members active in cluster group.
+01-Apr-2018 22:28:13.377 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\ROOT] has finished in [109] ms
+01-Apr-2018 22:28:13.377 信息 [main] org.apache.catalina.ha.session.JvmRouteBinderValve.startInternal JvmRouteBinderValve started
+01-Apr-2018 22:28:13.393 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8002"]
+01-Apr-2018 22:28:13.424 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-50001"]
+01-Apr-2018 22:28:13.440 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 5947 ms
+01-Apr-2018 22:28:40.045 信息 [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+01-Apr-2018 22:28:40.624 信息 [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 153, 1}:4001,{192, 168, 153, 1},4001, alive=1016, securePort=-1, UDP Port=-1, id={57 116 -28 94 126 45 71 100 -119 118 63 18 116 110 -91 88 }, payload={}, command={}, domain={}, ]]
+01-Apr-2018 22:38:14.463 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.29
+01-Apr-2018 22:38:14.463 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2018 13:11:12 UTC
+01-Apr-2018 22:38:14.478 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.29.0
+01-Apr-2018 22:38:14.478 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+01-Apr-2018 22:38:14.478 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+01-Apr-2018 22:38:14.478 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+01-Apr-2018 22:38:14.478 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_66\jre
+01-Apr-2018 22:38:14.478 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_66-b18
+01-Apr-2018 22:38:14.478 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+01-Apr-2018 22:38:14.478 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Clusters\apache-tomcat1-8.5.29
+01-Apr-2018 22:38:14.478 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Clusters\apache-tomcat1-8.5.29
+01-Apr-2018 22:38:14.478 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Clusters\apache-tomcat1-8.5.29\conf\logging.properties
+01-Apr-2018 22:38:14.478 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Apr-2018 22:38:14.478 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+01-Apr-2018 22:38:14.478 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Apr-2018 22:38:14.494 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+01-Apr-2018 22:38:14.494 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Clusters\apache-tomcat1-8.5.29
+01-Apr-2018 22:38:14.494 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Clusters\apache-tomcat1-8.5.29
+01-Apr-2018 22:38:14.509 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Clusters\apache-tomcat1-8.5.29\temp
+01-Apr-2018 22:38:14.509 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+01-Apr-2018 22:38:14.509 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+01-Apr-2018 22:38:14.509 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+01-Apr-2018 22:38:15.694 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+01-Apr-2018 22:38:16.132 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8002"]
+01-Apr-2018 22:38:16.460 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-Apr-2018 22:38:16.538 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-50001"]
+01-Apr-2018 22:38:16.554 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-Apr-2018 22:38:16.554 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3472 ms
+01-Apr-2018 22:38:16.798 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+01-Apr-2018 22:38:16.814 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.29
+01-Apr-2018 22:38:16.830 信息 [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+01-Apr-2018 22:38:16.908 信息 [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/192.168.153.1:4000]
+01-Apr-2018 22:38:17.396 信息 [main] org.apache.catalina.tribes.util.UUIDGenerator.<clinit> Creation of SecureRandom instance for UUID generation using [SHA1PRNG] took [473] milliseconds.
+01-Apr-2018 22:38:17.412 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+01-Apr-2018 22:38:17.412 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+01-Apr-2018 22:38:18.433 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+01-Apr-2018 22:38:18.433 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+01-Apr-2018 22:38:19.433 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+01-Apr-2018 22:38:19.480 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\docs]
+01-Apr-2018 22:38:21.049 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\docs] has finished in [1,569] ms
+01-Apr-2018 22:38:21.049 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\examples]
+01-Apr-2018 22:38:22.723 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\examples] has finished in [1,674] ms
+01-Apr-2018 22:38:22.738 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\host-manager]
+01-Apr-2018 22:38:22.807 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\host-manager] has finished in [69] ms
+01-Apr-2018 22:38:22.807 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\manager]
+01-Apr-2018 22:38:22.899 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\manager] has finished in [92] ms
+01-Apr-2018 22:38:22.899 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\ROOT]
+01-Apr-2018 22:38:23.008 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#] to cluster element [Engine] with name [Catalina]
+01-Apr-2018 22:38:23.024 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#]
+01-Apr-2018 22:38:23.024 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#]: skipping state transfer. No members active in cluster group.
+01-Apr-2018 22:38:23.039 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\ROOT] has finished in [140] ms
+01-Apr-2018 22:38:23.039 信息 [main] org.apache.catalina.ha.session.JvmRouteBinderValve.startInternal JvmRouteBinderValve started
+01-Apr-2018 22:38:23.055 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8002"]
+01-Apr-2018 22:38:23.086 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-50001"]
+01-Apr-2018 22:38:23.086 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 6538 ms
+01-Apr-2018 22:38:26.988 信息 [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+01-Apr-2018 22:38:27.517 信息 [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 153, 1}:4001,{192, 168, 153, 1},4001, alive=1025, securePort=-1, UDP Port=-1, id={82 -46 127 45 111 119 79 16 -94 3 27 -20 100 81 4 -54 }, payload={}, command={}, domain={}, ]]
+01-Apr-2018 22:42:02.094 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command 'GET /tomcat1.jsp HTTP/1.1' received
+01-Apr-2018 22:42:02.143 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command 'GET /tomcat1.jsp HTTP/1.1' received
+01-Apr-2018 22:42:02.179 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command 'GET /tomcat1.jsp HTTP/1.1' received
+01-Apr-2018 22:42:02.725 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command 'GET /tomcat1.jsp HTTP/1.1' received
+01-Apr-2018 22:42:02.768 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command 'GET /tomcat1.jsp HTTP/1.1' received
+01-Apr-2018 22:42:02.807 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command 'GET /tomcat1.jsp HTTP/1.1' received
+01-Apr-2018 22:42:07.881 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command 'GET /tomcat1.jsp HTTP/1.1' received
+01-Apr-2018 22:42:07.918 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command 'GET /tomcat1.jsp HTTP/1.1' received
+01-Apr-2018 22:42:07.959 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command 'GET /tomcat1.jsp HTTP/1.1' received
+01-Apr-2018 22:51:20.765 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.29
+01-Apr-2018 22:51:20.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2018 13:11:12 UTC
+01-Apr-2018 22:51:20.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.29.0
+01-Apr-2018 22:51:20.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+01-Apr-2018 22:51:20.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+01-Apr-2018 22:51:20.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+01-Apr-2018 22:51:20.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_66\jre
+01-Apr-2018 22:51:20.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_66-b18
+01-Apr-2018 22:51:20.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+01-Apr-2018 22:51:20.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Clusters\apache-tomcat1-8.5.29
+01-Apr-2018 22:51:20.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Clusters\apache-tomcat1-8.5.29
+01-Apr-2018 22:51:20.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Clusters\apache-tomcat1-8.5.29\conf\logging.properties
+01-Apr-2018 22:51:20.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Apr-2018 22:51:20.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+01-Apr-2018 22:51:20.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Apr-2018 22:51:20.796 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+01-Apr-2018 22:51:20.796 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Clusters\apache-tomcat1-8.5.29
+01-Apr-2018 22:51:20.812 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Clusters\apache-tomcat1-8.5.29
+01-Apr-2018 22:51:20.812 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Clusters\apache-tomcat1-8.5.29\temp
+01-Apr-2018 22:51:20.812 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+01-Apr-2018 22:51:20.812 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+01-Apr-2018 22:51:20.812 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+01-Apr-2018 22:51:22.091 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+01-Apr-2018 22:51:22.518 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8002"]
+01-Apr-2018 22:51:22.721 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-Apr-2018 22:51:22.752 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-50001"]
+01-Apr-2018 22:51:22.752 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-Apr-2018 22:51:22.752 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 4002 ms
+01-Apr-2018 22:51:22.888 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+01-Apr-2018 22:51:22.889 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.29
+01-Apr-2018 22:51:22.922 信息 [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+01-Apr-2018 22:51:23.000 信息 [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/192.168.153.1:4000]
+01-Apr-2018 22:51:23.428 信息 [main] org.apache.catalina.tribes.util.UUIDGenerator.<clinit> Creation of SecureRandom instance for UUID generation using [SHA1PRNG] took [428] milliseconds.
+01-Apr-2018 22:51:23.460 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+01-Apr-2018 22:51:23.460 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+01-Apr-2018 22:51:24.475 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+01-Apr-2018 22:51:24.489 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+01-Apr-2018 22:51:25.493 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+01-Apr-2018 22:51:25.556 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\docs]
+01-Apr-2018 22:51:27.631 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\docs] has finished in [2,075] ms
+01-Apr-2018 22:51:27.631 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\examples]
+01-Apr-2018 22:51:28.947 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\examples] has finished in [1,316] ms
+01-Apr-2018 22:51:28.947 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\host-manager]
+01-Apr-2018 22:51:29.025 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\host-manager] has finished in [78] ms
+01-Apr-2018 22:51:29.025 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\manager]
+01-Apr-2018 22:51:29.103 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\manager] has finished in [78] ms
+01-Apr-2018 22:51:29.103 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\ROOT]
+01-Apr-2018 22:51:29.193 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#] to cluster element [Engine] with name [Catalina]
+01-Apr-2018 22:51:29.198 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#]
+01-Apr-2018 22:51:29.201 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#]: skipping state transfer. No members active in cluster group.
+01-Apr-2018 22:51:29.218 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Clusters\apache-tomcat1-8.5.29\webapps\ROOT] has finished in [115] ms
+01-Apr-2018 22:51:29.222 信息 [main] org.apache.catalina.ha.session.JvmRouteBinderValve.startInternal JvmRouteBinderValve started
+01-Apr-2018 22:51:29.233 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8002"]
+01-Apr-2018 22:51:29.264 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-50001"]
+01-Apr-2018 22:51:29.280 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 6527 ms
+01-Apr-2018 22:51:31.292 信息 [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+01-Apr-2018 22:51:31.883 信息 [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 153, 1}:4001,{192, 168, 153, 1},4001, alive=1038, securePort=-1, UDP Port=-1, id={-26 -78 -17 -39 -96 68 79 -84 -75 -39 118 -29 -104 -54 -81 -120 }, payload={}, command={}, domain={}, ]]
+01-Apr-2018 22:52:53.841 信息 [Membership-MemberExpired.] org.apache.catalina.tribes.group.interceptors.TcpFailureDetector.memberDisappeared Received memberDisappeared[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 153, 1}:4001,{192, 168, 153, 1},4001, alive=79963, securePort=-1, UDP Port=-1, id={-26 -78 -17 -39 -96 68 79 -84 -75 -39 118 -29 -104 -54 -81 -120 }, payload={}, command={}, domain={}, ]] message. Will verify.
+01-Apr-2018 22:52:54.852 信息 [Membership-MemberExpired.] org.apache.catalina.tribes.group.interceptors.TcpFailureDetector.memberDisappeared Verification complete. Member disappeared[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 153, 1}:4001,{192, 168, 153, 1},4001, alive=79963, securePort=-1, UDP Port=-1, id={-26 -78 -17 -39 -96 68 79 -84 -75 -39 118 -29 -104 -54 -81 -120 }, payload={}, command={}, domain={}, ]]
+01-Apr-2018 22:52:54.852 信息 [Membership-MemberExpired.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberDisappeared Received member disappeared:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 153, 1}:4001,{192, 168, 153, 1},4001, alive=79963, securePort=-1, UDP Port=-1, id={-26 -78 -17 -39 -96 68 79 -84 -75 -39 118 -29 -104 -54 -81 -120 }, payload={}, command={}, domain={}, ]]
