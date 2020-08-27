@@ -2,7 +2,7 @@
 
 **一．下载**
 
-1. download apche http Service
+1. download apache http Service
 
 地址：<https://httpd.apache.org/>
 
